@@ -52,7 +52,8 @@ body{
 }
 
 .nav__title {
-    font-weight: 300;
+    font-weight: 800;
+    font-size: 28;
 }
 
 .nav__link {
@@ -131,6 +132,11 @@ body{
     margin-bottom: 25px;
 }
 
+.noLine {
+    color: #000;
+    text-decoration: none;
+}
+
 
 .about__paragraph {
     line-height: 1.7;
@@ -189,6 +195,7 @@ body{
 .knowledge__img{
     width: 100%;
     display: block;
+    border-radius: 5%;
 }
 
 /* Questions */
@@ -289,9 +296,7 @@ body{
 }
 
 .nav--footer{
-    padding-bottom: 20px;
     display: grid;
-    gap: 1em;
     grid-auto-flow: row;
     height: 100%;
 }
